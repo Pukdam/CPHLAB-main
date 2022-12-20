@@ -18,7 +18,6 @@ export default defineConfig({
         analogguide: resolve(__dirname, "src/analogguide.html"),
         singleview: resolve(__dirname, "src/singleview.html"),
         smalfilmoverspillet: resolve(__dirname, "src/smalfilmoverspillet.html"),
-        sitemap: resolve(__dirname, "src/sitemap.xml"),
         // about: resolve(__dirname, "src/about.html"),
       },
     },
