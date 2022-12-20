@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <title>Fremkaldelse</title>
+  </head>
+  <body>
+    <header class="banner place-items-center md:flex md:justify-between">
+      <div class="flex justify-between">
+        <a href="index.html"><img src="/img/logo.svg" alt="Logo" /></a>
+
+        <button class="toggle-btn">☰</button>
+      </div>
+
+      <nav class="navbar">
+        <ul class="gap-5 text-center md:flex">
+          <div class="dropdown place-self-center">
+            <li class="dropbtn">SHOP</li>
+            <div class="dropdown-content">
+              <a href="fremkaldelse.html">BESTIL FREMKALDELSE</a>
+              <a href="#0">KØB FILM & GAVEKORT</a>
+              <a href="#0">VIDEO OVERSPILNING</a>
+              <a href="smalfilmoverspillet.html">SMALFILM OVERSPILNING</a>
+              <a href="#0">SCAN AF LYSBILLEDER</a>
+              <a href="#0">SCAN AF PAPIRBILLEDER</a>
+            </div>
+          </div>
+          <li class="list-none md:place-self-center">
+            <a href="analogguide.html">ANALOG-INFO</a>
+          </li>
+          <li class="list-none md:place-self-center">
+            <a href="#0">FORSENDELSESGUIDE</a>
+          </li>
+          <li class="list-none md:place-self-center"><a href="#0">OM OS</a></li>
+          <li class="list-none md:place-self-center"><a href="#0">FAQ</a></li>
+          <li class="grid list-none place-content-center">
+            <a href=""><img src="/img/Bag.svg" alt="Kurv" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="section1 "
+        class="bg-[url('/img/retro_swirl.svg')] bg-cover md:bg-none md:bg-[url('/img/retro_swirl_web.svg')]"
+      >
+        <h1 class="my-5 text-center text-xl font-bold">FREMKALDELSE</h1>
+        <div class="mx-10 grid md:mx-40 md:grid md:grid-cols-2 md:gap-8">
+          <img
+            src="/img/single-film.svg"
+            alt="Analogfilm"
+            class="place-content-center rounded-sm drop-shadow-md"
+          />
+
+          <form class="single-form flex flex-col">
+            <label class="mt-4" for="print">Print</label>
+            <select class="rounded-lg" name="print" id="print">
+              <option value="blankt">10x15 (blankt papir) +99</option>
+              <option value="mat">10x15 (mat papir) +99</option>
+              <option value="hvid_blankt">
+                10x15 hvid kant (blankt papir) +99
+              </option>
+              <option value="hvid_mat">10x15 hvid kant (mat papir) +99</option>
+              <option value="ingen_print">Ingen print</option>
+            </select>
+
+            <label class="mt-4" for="scan">Scan kvalitet</label>
+            <select class="rounded-lg" name="scan" id="scan">
+              <option value="l">Large</option>
+              <option value="xl">X-Large +29</option>
+              <option value="xxl">XX-Large +99</option>
+            </select>
+
+            <label class="mt-4" for="specialfilm">Specialfilm</label>
+            <select class="rounded-lg" name="specialfilm" id="specialfilm">
+              <option value="alm_film">Almindelig film</option>
+              <option value="dias_sh">Dias eller sort/hvid +49</option>
+            </select>
+
+            <label class="mt-4" for="antal">Antal</label>
+            <select name="antal" id="antal" class="mb-10 w-1/5 rounded-lg">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+
+            <div class="relative mt-8">
+              <p class="absolute bottom-16 right-0">fra kr119</p>
+            </div>
+            <div class="relative">
+              <button class="absolute bottom-0 right-0 rounded-md">
+                Tilføj til kurv
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="mx-10 mt-8 md:mx-40 md:grid md:grid-cols-2 md:gap-8">
+        <div>
+          <h2 class="font-bold md:mt-6">Yderligere information</h2>
+          <p>
+            Send din film/engangskamera med posten til vores fremkalderstudie,
+            og vi sørger for at fremkalde samt scanne den digitalt i flot
+            opløsning! Når vi har færdigbehandlet dine billeder, sender vi dem
+            til dig direkte over mail. Læs mere om denne vare og hvordan du gør
+            under sektionen: "Send din film"
+          </p>
+          <p>Filformat: JPG</p>
+          <p>
+            OBS.: Der korrigeres ikke for støv og ridser på scan af
+            sort/hvid-film.
+          </p>
+
+          <h2 class="mt-6 font-bold">Leveringstid</h2>
+          <p>
+            Almindelig C41 farvefilm: Op til 5 hverdage fra modtagelse (uden
+            modtagelsesdagen) <br />
+            Specialfilm: Op til 12 hverdage fra modtagelse (uden
+            modtagelsesdagen)
+          </p>
+        </div>
+
+        <div>
+          <h2 class="mt-6 font-bold">Scan kvaliteter:</h2>
+          <ul class="ml-4">
+            <li>
+              <span
+                >Large: 2692 × 1830 - Scan i høj opløsning. Kan printes i A4
+                størrelse.
+              </span>
+            </li>
+            <li>
+              <span
+                >X-Large: 3637 × 2433 - Til enteusiasterne. Kan printes i A3
+                størrelse.
+              </span>
+            </li>
+            <li>
+              <span
+                >XX-Large: 3649 × 5362 - Til de professionelle. Kan printes i
+                plakatstørrelse.</span
+              >
+            </li>
+          </ul>
+          <p class="mt-4">
+            Printstørrelserne foroven er vejledende. Dette afhænger også af
+            filmens skarphed og omstændighederne, som billedet blev taget under.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-10 p-10 px-12 md:flex md:justify-between">
+      <section class="flex justify-between md:block">
+        <a href="index.html"
+          ><img class="w-32" src="/img/logo.svg" alt="logo"
+        /></a>
+        <div class="flex justify-between gap-8 md:mt-8 md:justify-evenly">
+          <a href="https://www.facebook.com/CPHLABDK"
+            ><img src="/img/facebook.svg" alt="Facebook ikon"
+          /></a>
+          <a href="https://www.instagram.com/cph.lab/"
+            ><img src="/img/instagram.svg" alt="Instagram ikon"
+          /></a>
+        </div>
+      </section>
+      <section class="mt-8 md:mt-0">
+        <h4 class="ml-5 text-left">KONTAKT</h4>
+        <p>info@cph-lab.dk</p>
+        <p>
+          CPH-LAB/ Hørsholm foto <br />
+          Hovedgaden 12, <br />
+          2970, Hørsholm
+        </p>
+      </section>
+      <section class="info mt-4 md:mt-0">
+        <h4 class="ml-5 text-left">INFO</h4>
+        <p class="underline underline-offset-4">Forsendelse og returnering</p>
+        <p class="underline underline-offset-4">Persondatapolitik</p>
+        <p class="underline underline-offset-4">Handelsbetingelser</p>
+      </section>
+      <section class="mt-4 md:mt-0">
+        <h4 class="text-left">
+          Kan du ikke få nok af os? <br />
+          Tilmeld dig vores nyhedsbrev!
+        </h4>
+        <form class="mt-4 flex rounded-sm p-0">
+          <input
+            type="text"
+            id="fname"
+            placeholder="jenshansen@email.dk"
+            class="rounded-sm border-none text-gray-500"
+          />
+          <button class="rounded-sm md:w-32">TILMELD</button>
+        </form>
+      </section>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

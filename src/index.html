@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Palanquin:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>CPH-LAB</title>
+  </head>
+  <body>
+    <header class="banner place-items-center md:flex md:justify-between">
+      <div class="flex justify-between">
+        <a href="index.html"><img src="/img/logo.svg" alt="Logo" /></a>
+
+        <button class="toggle-btn">☰</button>
+      </div>
+
+      <nav class="navbar">
+        <ul class="gap-5 text-center md:flex">
+          <div class="dropdown place-self-center">
+            <li class="dropbtn">SHOP</li>
+            <div class="dropdown-content">
+              <a href="fremkaldelse.html">BESTIL FREMKALDELSE</a>
+              <a href="#0">KØB FILM & GAVEKORT</a>
+              <a href="#0">VIDEO OVERSPILNING</a>
+              <a href="smalfilmoverspillet.html">SMALFILM OVERSPILNING</a>
+              <a href="#0">SCAN AF LYSBILLEDER</a>
+              <a href="#0">SCAN AF PAPIRBILLEDER</a>
+            </div>
+          </div>
+          <li class="list-none md:place-self-center">
+            <a href="analogguide.html">ANALOG-INFO</a>
+          </li>
+          <li class="list-none md:place-self-center">
+            <a href="#0">FORSENDELSESGUIDE</a>
+          </li>
+          <li class="list-none md:place-self-center"><a href="#0">OM OS</a></li>
+          <li class="list-none md:place-self-center"><a href="#0">FAQ</a></li>
+          <li class="grid list-none place-content-center">
+            <a href=""><img src="/img/Bag.svg" alt="Kurv" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="bg-[url('/img/forside_swirl_mobil.svg')] bg-cover md:bg-none md:bg-[url('/img/forside_swirl_web.svg')]"
+      >
+        <section id="forside_hero" class="text-center">
+          <h1 class="text-center">
+            FÅ MERE UD AF DINE FILM-BILLEDER <br />
+            MED CPH-LAB
+          </h1>
+          <img
+            class="w-screen md:hidden"
+            src="/img/splashbillede-mobil.webp"
+            alt="Billedeprinter"
+          />
+          <img
+            class="hidden md:block"
+            src="/img/splashbillede.webp"
+            alt="splashbillede"
+          />
+
+          <div>
+            <button class="ctaknap mt-6">
+              <a href="fremkaldelse.html">BESTIL FREMKALDELSE</a>
+            </button>
+          </div>
+        </section>
+        <section class="mx-8 md:mx-36">
+          <h2 class="pt-8 pb-4">VORES SERVICES</h2>
+          <div class="grid grid-cols-2 grid-rows-2 gap-6">
+            <img
+              class="max-h-80 place-self-end md:col-start-1 md:row-span-2 md:max-h-96"
+              src="/img/Forside-billede1.webp"
+              alt="Filmkamera"
+            />
+
+            <p class="pl-0 text-left md:col-start-2 md:mt-12">
+              CPH-LAB er skabt og drives af et passioneret team filmnørder - vi
+              har skræddersyet en service, der gør det nemt for alle, at få
+              fremkaldt sine analogfilm, uanset hvor man bor i landet.
+            </p>
+            <div class="col-span-2 md:col-start-2">
+              <h3 class="text-left">Vi tilbyder</h3>
+              <ul class="ml-4 mt-4 list-disc">
+                <li class="lianimate">
+                  <span> Fremkaldelse af analogfilm</span>
+                </li>
+                <li class="lianimate mt-4">
+                  <span> Scan af lys- og papirbilleder</span>
+                </li>
+                <li class="lianimate mt-4">
+                  <span> Overspilning af smalfilm og videobånd</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="mx-12 md:pb-32">
+          <h2 class="pt-0 pb-8 md:pt-10 md:pb-0 md:text-center">
+            DE PROFESSIONELLES VALG TIL DE LAVESTE PRISER
+          </h2>
+          <div
+            class="anmelderkort mx-8 md:mx-40 md:grid md:grid-cols-2 md:gap-20"
+          >
+            <article
+              class="grid max-w-xs gap-4 border-2 border-zinc-400 bg-white p-8 text-center md:mb-24 md:place-self-end md:p-4"
+            >
+              <img
+                src="/img/forside-person1.webp"
+                alt="Person der sidder på en trappe"
+              />
+              <h3>Anbefalet af professionelle</h3>
+              <q
+                >The images are so sharp, the colours are spot on and I received
+                the scans back so quickly! They're definitely my go to film
+                service in Copenhagen!
+              </q>
+              <cite> - Bailey Wilday Professionel fotograf </cite>
+            </article>
+
+            <article
+              class="mt-8 grid max-w-xs gap-4 border-2 border-zinc-400 bg-white p-8 text-center md:mt-24 md:p-4"
+            >
+              <img
+                src="/img/forside-person2.webp"
+                alt="Person med analogkamera foran ansigtet"
+              />
+              <h3>Elsket af folket</h3>
+              <q
+                >Som digital prof-hobby-fotograf, med hang til det analoge i
+                fritiden, tør jeg sagtens overlade mine film og negativer til
+                CPH-LAB, som hermed får min klare anbefaling!
+              </q>
+              <cite>— TR Foto, Google Reviews</cite>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <section class="mx-8 mt-8">
+        <h2 class="py-0 text-center">
+          <a href="https://www.instagram.com/cph.lab/">@CPH.LAB</a>
+        </h2>
+        <p class="mb-4 md:mx-72 md:text-center">
+          Tag os med @cph.lab på instagram på dit filmbillede for at blive
+          featured på vores instagram og vær med i lodtrækningen om 1x gratis
+          fremkaldelse + Digitale billeder!
+        </p>
+
+        <div class="grid grid-cols-2 gap-4 md:mx-40 md:grid-cols-3 md:gap-8">
+          <a href="https://www.instagram.com/p/CkilJMBsqlC/"
+            ><img src="/img/instagram1.svg" alt="To studenter"
+          /></a>
+
+          <a href="https://www.instagram.com/p/CjpqdEAsSQz/"
+            ><img
+              src="/img/instagram2.svg"
+              alt="Person i grøn bluse ved vandet."
+          /></a>
+
+          <a href="https://www.instagram.com/p/CghGJ5zM7wu/"
+            ><img src="/img/instagram3.svg" alt="Bygninger"
+          /></a>
+
+          <a href="https://www.instagram.com/p/Ce3pUbfDd-0/"
+            ><img
+              src="/img/instagram4.svg"
+              alt="Engangskamera foran en collage billeder"
+          /></a>
+
+          <a href="https://www.instagram.com/p/Cd5psv3MrLg/"
+            ><img
+              src="/img/instagram5.svg"
+              alt="Personer i hvid på en grøn bakke"
+          /></a>
+
+          <a href="https://www.instagram.com/p/Cd0rKTgMF3D/"
+            ><img
+              src="/img/instagram6.svg"
+              alt="Sort/Hvid-billede af person med piercinger"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-10 p-10 px-12 md:flex md:justify-between">
+      <section class="flex justify-between md:block">
+        <a href="index.html"
+          ><img class="w-32" src="/img/logo.svg" alt="logo"
+        /></a>
+        <div class="flex justify-between gap-8 md:mt-8 md:justify-evenly">
+          <a href="https://www.facebook.com/CPHLABDK"
+            ><img src="/img/facebook.svg" alt="Facebook ikon"
+          /></a>
+          <a href="https://www.instagram.com/cph.lab/"
+            ><img src="/img/instagram.svg" alt="Instagram ikon"
+          /></a>
+        </div>
+      </section>
+      <section class="mt-8 md:mt-0">
+        <h4 class="ml-5 text-left">KONTAKT</h4>
+        <p>info@cph-lab.dk</p>
+        <p>
+          CPH-LAB/ Hørsholm foto <br />
+          Hovedgaden 12, <br />
+          2970, Hørsholm
+        </p>
+      </section>
+      <section class="info mt-4 md:mt-0">
+        <h4 class="ml-5 text-left">INFO</h4>
+        <p class="underline underline-offset-4">Forsendelse og returnering</p>
+        <p class="underline underline-offset-4">Persondatapolitik</p>
+        <p class="underline underline-offset-4">Handelsbetingelser</p>
+      </section>
+      <section class="mt-4 md:mt-0">
+        <h4 class="text-left">
+          Kan du ikke få nok af os? <br />
+          Tilmeld dig vores nyhedsbrev!
+        </h4>
+        <form class="mt-4 flex rounded-sm p-0">
+          <input
+            type="text"
+            id="fname"
+            placeholder="jenshansen@email.dk"
+            class="rounded-sm border-none text-gray-500"
+          />
+          <button class="rounded-sm md:w-32">TILMELD</button>
+        </form>
+      </section>
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
